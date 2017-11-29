@@ -36,9 +36,7 @@
             <EditText
                 android:id="@+id/lastNameET"
                 style="@style/MyTextView.EditText"
-                android:hint="@string/last_name_et"
-                android:focusable="false"
-                android:focusableInTouchMode="false">
+                android:hint="@string/last_name_et">
                 <requestFocus />
             </EditText>
         </android.support.design.widget.TextInputLayout>

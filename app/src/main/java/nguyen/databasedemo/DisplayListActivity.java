@@ -23,6 +23,9 @@ public class DisplayListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_list);
 
+        //navigate up to the parent class
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         tableLayout = (TableLayout) findViewById(R.id.tableLayout);
 
         //instantiate the handler constructor
