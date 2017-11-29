@@ -6,6 +6,9 @@
     <string name="delete_button">Delete</string>
     <string name="show_all_button">Show All</string>
     <string name="delete_all_button">Delete All</string>
-    <item name="visible" type="id"/>
-    <item name="masked" type="id"/>
+    <string name="id_tv">ID</string>
+    <string name="first_tv">First</string>
+    <string name="last_tv">Last</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
 </resources>

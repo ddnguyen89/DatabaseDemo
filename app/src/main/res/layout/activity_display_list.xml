@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nguyen.databasedemo.DisplayListActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/idTV"
+                style="@style/MyTextView.Label"
+                android:text="@string/id_tv"/>
+
+            <TextView
+                android:id="@+id/firstTV"
+                style="@style/MyTextView.Label"
+                android:text="@string/first_tv"/>
+
+            <TextView
+                android:id="@+id/lastTV"
+                style="@style/MyTextView.Label"
+                android:text="@string/last_tv"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

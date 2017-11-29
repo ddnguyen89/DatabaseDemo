@@ -27,4 +27,11 @@
         <item name="android:background">@drawable/btn_blue_matte</item>
     </style>
 
+    <style name="MyTextView.Label" parent="MyTextView">
+        <item name="layout_width">wrap_content</item>
+        <item name="layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
 </resources>
